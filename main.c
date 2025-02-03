@@ -115,13 +115,6 @@ void print_line()
     printf("\n");
 }
 
-int comp(const void *a, const void *b)
-{
-    int vA = *(int *)a;
-    int vB = *(int *)b;
-    return vA - vB;
-}
-
 int main()
 {
     printf("Table 1: \n");
